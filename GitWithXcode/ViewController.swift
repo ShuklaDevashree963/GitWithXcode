@@ -24,5 +24,9 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         print("HI")
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+    }
 }
 
